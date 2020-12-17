@@ -27,7 +27,7 @@ class MainClass {
         ++subaru.wheels;
         subaru.printInfo();
         trace("Removing wheel using object method.");
-		subaru.deleteWheels(1);
+	subaru.deleteWheels(1);
         subaru.printInfo();
     }
 }
@@ -35,42 +35,42 @@ class MainClass {
 class Car {
 	public var wheels:Int;
 	public var doors:Int;
-    public var cylinders:Int;
+        public var cylinders:Int;
 
 	public function new(wheels, doors, cylinders) {
-		this.wheels = wheels;
-		this.doors = doors;
-        this.cylinders = cylinders;
+	    this.wheels = wheels;
+	    this.doors = doors;
+            this.cylinders = cylinders;
 	}
 
 	public function addWheels(wheelsIn) {
-		this.wheels += wheelsIn;
+	    this.wheels += wheelsIn;
 	}
     
     public function addDoors(doorsIn) {
-		this.doors += doorsIn;
+	    this.doors += doorsIn;
 	}
     
     public function addCylinders(cylindersIn) {
-		this.cylinders += cylindersIn;
+	    this.cylinders += cylindersIn;
 	}
     
     public function deleteWheels(wheelsIn) {
-		this.wheels -= wheelsIn;
+	    this.wheels -= wheelsIn;
 	}
     
     public function deleteDoors(doorsIn) {
-		this.doors -= doorsIn;
+	    this.doors -= doorsIn;
 	}
     
     public function deleteCylinders(cylindersIn) {
-		this.cylinders -= cylindersIn;
+	    this.cylinders -= cylindersIn;
 	}
     
     public function printInfo() {
-		trace("Wheel check: " + this.wheels);
-        trace("Door check: " + this.doors);
-        trace("Cylinder check: " + this.cylinders);
-        trace("");
+	    trace("Wheel check: " + this.wheels);
+            trace("Door check: " + this.doors);
+            trace("Cylinder check: " + this.cylinders);
+            trace("");
 	}
 }
