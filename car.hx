@@ -47,27 +47,27 @@ class Car {
 	    this.wheels += wheelsIn;
 	}
     
-    public function addDoors(doorsIn) {
+        public function addDoors(doorsIn) {
 	    this.doors += doorsIn;
 	}
     
-    public function addCylinders(cylindersIn) {
+        public function addCylinders(cylindersIn) {
 	    this.cylinders += cylindersIn;
 	}
     
-    public function deleteWheels(wheelsIn) {
+        public function deleteWheels(wheelsIn) {
 	    this.wheels -= wheelsIn;
 	}
     
-    public function deleteDoors(doorsIn) {
+        public function deleteDoors(doorsIn) {
 	    this.doors -= doorsIn;
 	}
     
-    public function deleteCylinders(cylindersIn) {
+        public function deleteCylinders(cylindersIn) {
 	    this.cylinders -= cylindersIn;
 	}
     
-    public function printInfo() {
+        public function printInfo() {
 	    trace("Wheel check: " + this.wheels);
             trace("Door check: " + this.doors);
             trace("Cylinder check: " + this.cylinders);
